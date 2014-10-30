@@ -1,0 +1,20 @@
+<meta>
+	
+	<script src="main.lua" type="client" />
+	<script src="renderizacion.lua" type="client" />
+	<script src="hiddenWork.lua" type="client" />
+	
+	<!-- Compontentes dxGUI -->
+	
+	<script src="compontents/dxWindow.lua" type="client" />
+	
+	
+	<export function="dxDrawWindow" type="client" />
+	<export function="dxWindowSetMovable" type="client" />
+	<export function="dxSetText" type="client" />
+	<export function="dxGetText" type="client" />
+	<export function="dxSetSize" type="client" />
+	<export function="dxGetSize" type="client" />
+	<export function="dxSetPosition" type="client" />
+	<export function="dxGetPosition" type="client" />
+</meta>
